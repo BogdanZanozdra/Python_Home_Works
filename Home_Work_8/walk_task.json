@@ -1,0 +1,266 @@
+[
+  {
+    "name": "test_dir",
+    "parent": "Home_Work_7",
+    "type": "directory",
+    "size": 243030
+  },
+  {
+    "name": "__pycache__",
+    "parent": "Home_Work_7",
+    "type": "directory",
+    "size": 192
+  },
+  {
+    "name": "creating_name.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 8
+  },
+  {
+    "name": "file_output.txt",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 78
+  },
+  {
+    "name": "iut.csv",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 1321
+  },
+  {
+    "name": "renaming.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 2686
+  },
+  {
+    "name": "task_1.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 831
+  },
+  {
+    "name": "task_2.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 943
+  },
+  {
+    "name": "task_3.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 2311
+  },
+  {
+    "name": "task_4.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 2704
+  },
+  {
+    "name": "task_5.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 898
+  },
+  {
+    "name": "test_file_names.txt",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 50
+  },
+  {
+    "name": "usersf.json",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 4513
+  },
+  {
+    "name": "walk_task.csv",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 1394
+  },
+  {
+    "name": "walk_task.json",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 4513
+  },
+  {
+    "name": "walk_task.pickle",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 1868
+  },
+  {
+    "name": "__init__.py",
+    "parent": "Home_Work_7",
+    "type": "file",
+    "size": 62
+  },
+  {
+    "name": "DOC",
+    "parent": "test_dir",
+    "type": "directory",
+    "size": 32766
+  },
+  {
+    "name": "PDF",
+    "parent": "test_dir",
+    "type": "directory",
+    "size": 44183
+  },
+  {
+    "name": "TXT",
+    "parent": "test_dir",
+    "type": "directory",
+    "size": 77633
+  },
+  {
+    "name": "hhvideo3.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11013
+  },
+  {
+    "name": "iiiivideo2.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11191
+  },
+  {
+    "name": "iivideo3.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11132
+  },
+  {
+    "name": "ndvideo1.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 10938
+  },
+  {
+    "name": "puvideo6.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 0
+  },
+  {
+    "name": "Vpgehrd.doc",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11023
+  },
+  {
+    "name": "w.video4.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11068
+  },
+  {
+    "name": "Welce.doc",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11010
+  },
+  {
+    "name": "xivideo5.mp4",
+    "parent": "test_dir",
+    "type": "file",
+    "size": 11073
+  },
+  {
+    "name": "Qliikec.doc",
+    "parent": "DOC",
+    "type": "file",
+    "size": 10836
+  },
+  {
+    "name": "Ttpx.doc",
+    "parent": "DOC",
+    "type": "file",
+    "size": 10989
+  },
+  {
+    "name": "Vqmxql.doc",
+    "parent": "DOC",
+    "type": "file",
+    "size": 10941
+  },
+  {
+    "name": "Gtunwt.pdf",
+    "parent": "PDF",
+    "type": "file",
+    "size": 11052
+  },
+  {
+    "name": "Nkvw.pdf",
+    "parent": "PDF",
+    "type": "file",
+    "size": 11094
+  },
+  {
+    "name": "Rftq.pdf",
+    "parent": "PDF",
+    "type": "file",
+    "size": 10955
+  },
+  {
+    "name": "Thtytfq.pdf",
+    "parent": "PDF",
+    "type": "file",
+    "size": 11082
+  },
+  {
+    "name": "Kbqtnuu.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11110
+  },
+  {
+    "name": "Lxso.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11011
+  },
+  {
+    "name": "Rrmbym.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11134
+  },
+  {
+    "name": "Scms.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11102
+  },
+  {
+    "name": "Tobxik.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11002
+  },
+  {
+    "name": "Tpge.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11128
+  },
+  {
+    "name": "Yxivx.txt",
+    "parent": "TXT",
+    "type": "file",
+    "size": 11146
+  },
+  {
+    "name": "creating_name.cpython-311.pyc",
+    "parent": "__pycache__",
+    "type": "file",
+    "size": 192
+  }
+]

@@ -34,7 +34,7 @@ def withdraw(current_amount: float):
             my_amount = current_amount
             return (
                 f'Минимальная купюра для снятия {MIN_WITHDRAW}, также сумма не может превышать остаток на счете! На '
-                f'вашем счете {current_amount}, и мы сняли налог на богатство!')
+                f'вашем счете {my_amount}, и мы сняли налог на богатство!')
         current_amount = take_money(current_amount, withdraw_amount)
         my_amount = count_transactions(current_amount)
         return f'Успех! Теперь на вашем счете {current_amount} и мы сняли налог на богатство!'
@@ -45,7 +45,7 @@ def withdraw(current_amount: float):
                 f'вашем счете {current_amount}')
         current_amount = take_money(current_amount, withdraw_amount)
         my_amount = count_transactions(current_amount)
-        return f'Успех! Теперь на вашем счете {current_amount}'
+        return f'Успех! Теперь на вашем счете {my_amount}'
 
 
 def put_money(current_amount: float):
@@ -57,18 +57,18 @@ def put_money(current_amount: float):
         if put_amount % MIN_WITHDRAW != 0:
             my_amount = current_amount
             return (
-                f'Минимальная купюра для пополнения {MIN_WITHDRAW}. На вашем счете {current_amount}, и мы сняли налог '
+                f'Минимальная купюра для пополнения {MIN_WITHDRAW}. На вашем счете {my_amount}, и мы сняли налог '
                 f'на богатство!')
         current_amount += put_amount
         my_amount = count_transactions(current_amount)
-        return f'Успех! Теперь на вашем счете {current_amount} и мы сняли налог на богатство!'
+        return f'Успех! Теперь на вашем счете {my_amount} и мы сняли налог на богатство!'
     elif current_amount <= RICH_POINT:
         if put_amount % MIN_WITHDRAW != 0:
             return (
                 f'Сумма пополнения должна быть кратна {MIN_WITHDRAW}. На вашем счете {current_amount}')
         current_amount += put_amount
         my_amount = count_transactions(current_amount)
-        return f'Успех! Теперь на вашем счете {current_amount} и мы сняли налог на богатство!'
+        return f'Успех! Теперь на вашем счете {my_amount}!'
 
 
 def take_money(input_amount: float, withdraw_amount: int):
@@ -81,7 +81,7 @@ def take_money(input_amount: float, withdraw_amount: int):
     return input_amount
 
 
-my_amount = 0
+my_amount = 10000000
 MIN_WITHDRAW = 50
 WITHDRAWAL_PERCENTAGE = 1.5
 MIN_SUM_PERCENTAGE = 30

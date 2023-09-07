@@ -1,4 +1,3 @@
-# Решить задачи, которые не успели решить на семинаре.
 # В модуль с проверкой даты добавьте возможность запуска в терминале с передачей даты на проверку.
 #
 # Задача: Расчет финансовых показателей портфеля акций:
@@ -36,10 +35,17 @@
 # В реальном мире вы можете использовать API для получения актуальных данных о ценах акций. В данной задаче можно использовать фиктивные данные
 # для тестирования и обучения.
 
+class Prices:
+    init_prices = {"AAPL": 150.25, "GOOGLE": 2500.75, "MSFT": 360.50}
+
+    def __init__(self, init_prices):
+        self.init_prices = init_prices
+
 
 def calculate_portfolio_value(stocks: dict, prices: dict) -> float:
-    global _init_prices
-    _init_prices = prices
+    # global _init_prices
+    # _init_prices = prices
+    Prices.init_prices = prices
     res = {key: value * prices[key] for key, value in stocks.items()}
     return sum(res.values())
 
@@ -51,14 +57,14 @@ def calculate_portfolio_return(initial_value: float, current_value: float) -> fl
 def get_most_profitable_stock(stocks: dict, prices: dict) -> str:
     profit_stock_dict = {}
     for key, value in prices.items():
-        profit_stock_dict.setdefault(key, (value - _init_prices[key]))
+        profit_stock_dict.setdefault(key, (value - Prices.init_prices[key]))
     key_list = list(profit_stock_dict.keys())
     value_list = list(profit_stock_dict.values())
     pos = value_list.index(max(profit_stock_dict.values()))
     return key_list[pos]
 
 
-_init_prices = {}
+# _init_prices = {}
 stocks = {"AAPL": 10, "GOOGLE": 5, "MSFT": 8}
 prices = {"AAPL": 150.25, "GOOGLE": 2500.75, "MSFT": 360.50}
 

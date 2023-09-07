@@ -15,12 +15,9 @@ def task2(**kwargs):
 
     return res
 
+
 # types_list = [ list, dict, bytearray, frozenset]
 # if type(types_list) in types_list:
 #     print('ok')
 
 print(task2(res=1, reverse=[1, 2, 3]))
-
-
-
-

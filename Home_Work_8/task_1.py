@@ -22,12 +22,12 @@ import pickle
 
 
 def get_size_file_in_direct(path: str) -> int:
-  size = 0
-  for dir_path, dir_names, file_names in os.walk(path):
-    for file in file_names:
-        fp = os.path.join(dir_path, file)
-        size += os.path.getsize(fp)
-  return size
+    size = 0
+    for dir_path, dir_names, file_names in os.walk(path):
+        for file in file_names:
+            fp = os.path.join(dir_path, file)
+            size += os.path.getsize(fp)
+    return size
 
 
 def get_info(dir: str) -> list[dict]:
